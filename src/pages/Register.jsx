@@ -39,9 +39,11 @@ const Register = () => {
               className="w-full pl-10 pr-4 py-2 bg-black/30 border border-white/20 rounded-md placeholder-white/50"
             />
           </div>
-          <button className="w-full bg-teal-500 hover:bg-teal-600 py-2 rounded-md font-medium flex items-center justify-center gap-2">
+         <Link to='/chat'>
+         <button className="w-full bg-teal-500 hover:bg-teal-600 py-2 rounded-md font-medium flex items-center justify-center gap-2">
             <FaUserPlus /> Register
           </button>
+         </Link>
           <p className="text-sm text-gray-400 mt-4 text-center">
             Already have an account?{" "}
             <Link

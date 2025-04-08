@@ -2,7 +2,7 @@ import { Bot } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="bg-gradient-to-t from-black via-[#0a111d] to-[#0d1d22]  text-white py-12">
+    <footer className="bg-black  text-white py-12">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           

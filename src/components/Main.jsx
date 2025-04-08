@@ -1,6 +1,7 @@
 // src/components/Main.jsx
 import React, { useState } from 'react';
 import { Bot, UserCircle2 } from 'lucide-react';
+import {Link} from 'react-router-dom'
 
 function Main() {
   const [isAnimating, setIsAnimating] = useState(false);
@@ -55,12 +56,15 @@ function Main() {
               </div>
             </div>
           </div>
-          <button
+        <Link to='/login'>
+        <button
             onClick={handleInitialClick}
             className="mt-8 bg-gradient-to-r from-teal-500 to-emerald-500 text-white px-8 py-3 rounded-full font-semibold text-lg hover:opacity-90 transition-all transform hover:scale-105 shadow-xl"
           >
             Begin Your Journey
           </button>
+        
+        </Link>
         </div>
 
         {/* Right Content */}
